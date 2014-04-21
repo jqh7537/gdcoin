@@ -1,0 +1,9 @@
+Building Gdcoin
+
+See doc/readme-qt.rst for instructions on building Gdcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Gdcoin.
+
+See doc/build-*.txt for instructions on building gdcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Gdcoin.
