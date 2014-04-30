@@ -1,0 +1,34 @@
+src/*.exe
+src/gdcoin
+src/gdcoind
+src/test_gdcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.gdcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+gdcoin-qt
+Gdcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+gdcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
